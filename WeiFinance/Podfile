@@ -1,0 +1,41 @@
+
+platform :ios, '8.0'
+
+#使用动态frameworks
+#use_frameworks!
+#inhibit_all_warnings
+#source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+
+target 'WeiFinance' do
+ 
+    pod 'AFNetworking','~> 3.1'   #网络请求
+    pod 'YTKNetwork'              #
+    pod 'SDWebImage'              #加载图片
+
+    pod 'CTMediator'              #组件化
+    pod 'ReactiveObjC'
+  
+    pod 'Realm'                   #数据库
+    pod 'FMDB'                    #
+    pod 'MJExtension'             #json转model
+
+    pod 'MJRefresh'               #下拉刷新
+    pod 'SVProgressHUD'           #轻量级提示框
+    pod 'DZNEmptyDataSet'         #空数据tableview
+
+    pod 'SDAutoLayout'            #frame布局
+    pod 'SDCycleScrollView'       #
+    pod 'Masonry'                 #自动布局
+    pod 'IQKeyboardManager'       #键盘管理
+  
+    pod 'JKCategories'            #分类
+    pod 'BlocksKit'               #Block
+
+    pod 'Bugtags'                 #bug收集
+
+    pod 'UMengAnalytics'          #友盟统计
+
+    pod 'NIMSDK'                  #网易云信IM
+
+end
